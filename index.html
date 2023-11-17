@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/stlye.css">
+    <title>JS Study</title>
+</head>
+<body>
+    <div id="left_contain">
+        <div id="profile_box">
+            <div id="profile_img">
+                <img src="img/profile.jpg" alt="사용자 프로필">
+            </div>
+            <div id="profile_greeting">shong</div>
+        </div>
+        <!-- //프로필 -->
+        <div id="quick_link">
+            <div id="quick_title">Quick Link</div>
+            <div id="quick_list_box">
+                <ul class="quick_list">
+                    <li>
+                        <a href="https://nomadcoders.co/courses" target="_blank">
+                            <span># </span>NomadCoders💻
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://nomadcoders.co/javascript-for-beginners/lobby" target="_blank">
+                            <span># </span>VanilaJS💻
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://nomadcoders.co/javascript-for-beginners-2/lobby" target="_blank">
+                            <span># </span>PaintingJS💻
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://nomadcoders.co/nwitter/lobby" target="_blank">
+                            <span># </span>TwitterClone💻
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.pinterest.co.kr/" target="_blank">
+                            <span># </span>Pinterest🎨
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://materializecss.com/about.html" target="_blank">
+                            <span># </span>Materializecss🎨
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://flexngrid.com/" target="_blank">
+                            <span># </span>FlexnGrid🎨
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.behance.net/" target="_blank">
+                            <span># </span>Behance🎨
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://opentutorials.org/course/1" target="_blank">
+                            <span># </span>생활코딩🔎
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.tcpschool.com/" target="_blank">
+                            <span># </span>TCPschool🔎
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://chat.openai.com/auth/login" target="_blank">
+                            <span># </span>ChatGPT🔎
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://codesandbox.io/" target="_blank">
+                            <span># </span>CodeSandBox💾
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/" target="_blank">
+                            <span># </span>GitHub💾
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- //퀵링크 -->
+    </div>
+    <!-- //좌측 컨테이너 -->
+    <div id="center_contain">
+        <h2 id="greeting">Good Day, <span>Shong!</span></h2>
+        <h5 id="access_time"></h5>
+        <!-- //타이틀, 접속시간 -->
+        <div id="todo_box">
+            <form id="todo-form">
+                <input type="text" placeholder="Write a To Do and Press Enter" required>
+                <input type="submit" id="" value="+" />
+            </form>
+            <div id="todo_box_all">
+                <div class="todo_list_box">
+                    <div class="box_title">
+                        Todo List
+                    </div>
+                    <ul id="todo-list"></ul> 
+                </div>
+                <div class="todo_list_box">
+                    <div class="box_title">
+                        Complete List
+                    </div>
+                    <ul id="complete_list"></ul>
+                </div>
+            </div>            
+        </div>
+        <!-- //할일 -->
+        <div id="quote_box">
+            <div class="box_title">
+                Life Quotes
+            </div>
+            <div id="quote">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <!-- //명언 -->
+    </div>
+    <!-- //가운데 컨테이너 -->
+    <div id="right_contain">
+        <div id="clock_box">
+            <div id="date">
+                <span id="week"></span>
+                <span id="day"></span>
+                <span id="month"></span>
+                <span id="year"></span>
+            </div>
+            <div id="clock"></div>
+        </div>
+        <div id="weather_box">
+            <div class="box_title">
+                <span></span>'s Weather
+            </div>
+            <div id="weather">
+                <span></span>°C
+            </div>
+        </div>
+    </div>
+    <!-- //오른쪽 컨테이너 -->
+<!-- //명언 -->
+<!-- <div id="black-bg"></div> -->
+    <!-- <script src="greeting.js"></script> -->
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <!-- <script src="background.js"></script> -->
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
