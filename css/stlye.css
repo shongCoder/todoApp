@@ -90,7 +90,6 @@ html, body {
     font-family: 'MapoDPPA';
     font-size: 3rem;
     color: var(--dark_gray);
-    margin-left: -5px;
 }
 #greeting span {
     color: var(--blue);
@@ -209,6 +208,8 @@ html, body {
     padding: 80px 0 60px 0;
     box-shadow: -10px 0 20px #51596e10;
 }
+
+/*시간*/
 #clock_box {
     width: 76%;
     height: 170px;
@@ -222,7 +223,6 @@ html, body {
     font-size: 4rem;
     font-family: 'MapoDPPA';
     overflow: hidden;
-    margin-left: -5px;
 }
 #clock span {
     color: var(--blue);
@@ -248,7 +248,6 @@ html, body {
 }
 #weather span {
     font-size: 4rem;
-    margin-left: -5px;
 }
 #weather #snow {
     background-image: url(../img/icon_snow.png);
@@ -291,4 +290,23 @@ html, body {
     width: 75px;
     height: 75px;
     float: right;
+}
+
+/*유튜브*/
+#youtube_box {
+    width: 76%;
+    height: 300px;
+    background: white;
+    padding: 41px 30px 0 30px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px #385BAB33;
+    margin: 30px 12% 0 12%;
+    overflow: hidden;  
+}
+#youtube_con{
+    text-align: center;
+}
+#youtube_box iframe {
+    width: 100%;
+    height: 170px;
 }
