@@ -179,9 +179,10 @@ html, body {
     width: 20px;
     height: 20px;
     cursor: pointer;
+    transition: all 2s ease-in;
 }
 #todo-list li button:hover, #complete_list li button:hover {
-    transform: rotate(180deg);
+    transform: rotate(360deg);
 }
 #complete_list li button {
     background-image: url(../img/icon_X.png);
