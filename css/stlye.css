@@ -180,6 +180,9 @@ html, body {
     height: 20px;
     cursor: pointer;
 }
+#todo-list li button:hover, #complete_list li button:hover {
+    transform: rotate(180deg);
+}
 #complete_list li button {
     background-image: url(../img/icon_X.png);
 }
