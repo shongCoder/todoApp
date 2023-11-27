@@ -136,10 +136,11 @@ html, body {
     box-shadow: 10px 10px 20px #51596e10;
     /* margin-left: 1.0638%; */
     cursor:pointer;
-    transition: all 0.5s ease-in;
+    transition: all 0.3s ease-in;
 }
 #todo_box #todo-form input:last-child:hover {
     transform: rotate(90deg);
+    box-shadow: 0 0 20px #2f68ee70;
 }
 #todo_box_all {
     clear: both;
@@ -187,9 +188,16 @@ html, body {
 }
 #todo-list li button:hover {
     transform: rotate(360deg);
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
 }
 #complete_list li button:hover {
     transform: rotate(180deg);
+    transform: rotate(360deg);
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
 }
 #complete_list li button {
     background-image: url(../img/icon_X.png);
