@@ -188,16 +188,9 @@ html, body {
 }
 #todo-list li button:hover {
     transform: rotate(360deg);
-    background-size: 24px 24px;
-    width: 24px;
-    height: 24px;
 }
 #complete_list li button:hover {
-    transform: rotate(180deg);
-    transform: rotate(360deg);
-    background-size: 24px 24px;
-    width: 24px;
-    height: 24px;
+    transform: rotate(90deg);
 }
 #complete_list li button {
     background-image: url(../img/icon_X.png);
