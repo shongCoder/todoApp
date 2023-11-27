@@ -190,7 +190,7 @@ html, body {
     transform: rotate(360deg);
 }
 #complete_list li button:hover {
-    transform: rotate(90deg);
+    transform: rotate(180deg);
 }
 #complete_list li button {
     background-image: url(../img/icon_X.png);
