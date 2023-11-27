@@ -179,7 +179,7 @@ html, body {
     width: 20px;
     height: 20px;
     cursor: pointer;
-    transition: all 1s ease-in;
+    transition: all 0.5s ease-in;
 }
 #todo-list li button:hover, #complete_list li button:hover {
     transform: rotate(360deg);
